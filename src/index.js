@@ -35,60 +35,46 @@
 
 //////////////// Challenge 3 //////////////////
 
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-// const eveningTime = 19 >= new Date().getHours() >= 23 ? "Good Evening" : null;
-// const afternoonTime =
-//   12 >= new Date().getHours() >= 19 ? "Good Afternoon" : eveningTime;
-// const morningTime =
-//   1 >= new Date().getHours() >= 11 ? "Good Morning" : afternoonTime;
-// const eveningStyle =
-//   String(eveningTime) === "Good Evening"
-//     ? {
-//         color: "black",
-//         textAlign: "center",
-//       }
-//     : null;
-// const afternoonStyle =
-//   String(afternoonTime) === "Good Afternoon"
-//     ? {
-//         color: "yellow",
-//         textAlign: "center",
-//       }
-//     : eveningStyle;
-// const morningStyle =
-//   String(morningTime) === "Good Morning"
-//     ? {
-//         color: "blue",
-//         textAlign: "center",
-//       }
-//     : afternoonStyle;
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import "./index.css";
+// let currDate = new Date(2020, 5, 5, 16);
+// currDate = currDate.getHours();
+// let greeting = "";
+// const cssStyle = {};
+// if (currDate >= 1 && currDate < 12) {
+//   greeting = "Good Morning";
+//   cssStyle.color = "green";
+// } else if (currDate >= 12 && currDate < 19) {
+//   greeting = "Good Afternoon";
+//   cssStyle.color = "Orange";
+// } else {
+//   greeting = "Good Night";
+//   cssStyle.color = "Black";
+// }
 // ReactDOM.render(
-//   <h1 style={morningStyle}>Hello Sir, {morningTime}</h1>,
+//   <>
+//     <div>
+//       <h1>
+//         Hello Sir, <span style={cssStyle}>{greeting}</span>
+//       </h1>
+//     </div>
+//   </>,
 //   document.getElementById("root")
 // );
-let currDate = new Date(2020, 5, 5, 16);
-currDate = currDate.getHours();
-let greeting = "";
-const cssStyle = {};
-if (currDate >= 1 && currDate < 12) {
-  greeting = "Good Morning";
-  cssStyle.color = "green";
-} else if (currDate >= 12 && currDate < 19) {
-  greeting = "Good Afternoon";
-  cssStyle.color = "Orange";
-} else {
-  greeting = "Good Night";
-  cssStyle.color = "Black";
-}
-ReactDOM.render(
-  <>
-    <div>
-      <h1>
-        Hello Sir, <span style={cssStyle}>{greeting}</span>
-      </h1>
-    </div>
-  </>,
-  document.getElementById("root")
-);
+
+/////////////// Challenge 4 ///////////////
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App";
+// import "./index.css";
+
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+/////////////// Challenge 5 Create Simple Calculator App in React Js ////////////////
+
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+ReactDOM.render(<App />, document.getElementById("root"));
