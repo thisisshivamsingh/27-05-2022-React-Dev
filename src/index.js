@@ -74,7 +74,15 @@
 
 /////////////// Challenge 5 Create Simple Calculator App in React Js ////////////////
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App";
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+/////////////// Challenge 6 Slot Machine Game in React Js ///////////////
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 import App from "./App";
+
 ReactDOM.render(<App />, document.getElementById("root"));
